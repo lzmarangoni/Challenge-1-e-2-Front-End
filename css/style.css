@@ -1,0 +1,57 @@
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 40px auto;
+    
+}
+
+#nome {
+    display: inline-block;
+    width: 15%;
+    font-weight: bold;
+    vertical-align: top;
+}
+nav {
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+nav li{
+    display:inline;
+    margin-left: 10px;  
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+}
+
+nav {
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #CCCCCC;
+    font-size: 18px;
+}
+
+nav a:active {
+    color: red;
+}
+
+main{
+    background: #CCCCCC;
+}
+.main-texto{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    
+    padding:20px;
+}
+
+.redes-sociais li{
+    display: inline;
+    margin-left: 10px;
+   
+}
+
