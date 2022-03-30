@@ -1,57 +1,353 @@
+body {
+    background-color: #E5E5E5;
+    font: 'raleway';
+    color: black;
+}
+html {
+    scroll-behavior: smooth;
+}
+    
 
-.caixa {
-    position: relative;
+header {
+    display: flex;
     width: 940px;
-    margin: 40px auto;
-    
-}
-
-#nome {
-    display: inline-block;
-    width: 15%;
-    font-weight: bold;
-    vertical-align: top;
-}
-nav {
-    position:absolute;
-    top: 0;
-    right: 0;
-}
-
-nav li{
-    display:inline;
-    margin-left: 10px;  
-    border: 1px solid #CCCCCC;
-    border-radius: 10px;
-}
-
-nav {
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #CCCCCC;
-    font-size: 18px;
-}
-
-nav a:active {
-    color: red;
-}
-
-main{
-    background: #CCCCCC;
-}
-.main-texto{
-    display: inline-block;
-    width: 50%;
-    vertical-align: top;
-    
-    padding:20px;
-}
-
-.redes-sociais li{
-    display: inline;
-    margin-left: 10px;
+    margin: 20px auto;
+    justify-content: space-between;
    
 }
 
+.nome {
+    display: flex;
+}
+
+header li {
+    display: inline;
+    margin-right: 10px;
+    
+
+}
+
+header a{
+    text-decoration: none;
+    
+    
+}
+
+.principal{
+    width: 940px;
+    margin: 20px auto;
+}
+
+.texto-principal h1{
+    font-size: 52px;
+    font-weight: 1000;
+    margin: 24px 0px;
+    font-family: 'raleway';
+}
+
+.texto-principal p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;  
+    font-family: 'raleway';
+}
+
+.principal div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    margin: 40px auto; 
+    
+}
+
+.redes-sociais  {
+    display: flex;
+    margin-top: 30px;
+}
+
+.redes-sociais li{
+    margin-right: 30px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+}
+
+.perfil {
+    border-radius: 500px;
+    width: 368px;
+    height: 368px;
+}
+
+.sobre-mim-container {
+    width: 940px;
+    margin: 40px auto
+}
+.sobre-mim{
+    
+    background: #EAF2FD;
+    display: flex;
+    padding: 64px;
+    flex-flow: column wrap;
+   
+}
+
+.sobre-mim h2{
+    
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.sobre-mim p {
+    display: flex;
+    width: 740px;
+    margin: 20px 0px;
+    font-size: 16px;
+    font: 'raleway';
+}
+
+.skills h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    font: 'raleway';
+}
+.skills-hobbies {
+    width: 940px;
+    margin: 20px auto;
+}
+
+.skills ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+    
+.lista-skills {
+    width: 14%;
+    background-color: #FFFFFF;
+    padding: 70px 70px 10px 10px;
+    margin: 1%;
+    
+}  
+
+.hobbies {
+    margin: 40px auto;
+}
+
+.hobbies h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    font: 'raleway';
+}
+
+.hobbies ul{
+    display: flex;
+    justify-content: space-between;
+}
+    
+.lista-hobbies {
+    width: 14%;
+    background-color: #FFFFFF;
+    padding: 70px 70px 10px 10px;
+    margin: 1%;
+}  
+
+.formacoes {
+    background: #EAF2FD;
+    display: flex;
+    padding: 64px;
+    flex-flow: column wrap;
+}
+
+.formacoes h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 40px 0px;
+    font: 'raleway';
+}
+
+.formacoes.container {
+    width: 940px;
+    margin: 40px auto;
+}
+
+.formacoes ul{
+    width: 940px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-formacoes img{
+    background-color: #FFFFFF;
+    padding: 50px;
+    margin: 1%;
+}
+
+.lista-formacoes h3 {
+    font-weight: 700;
+    font-size: 22px;
+    margin: 8px 0px;
+    font: 'raleway';
+}
+
+.lista-formacoes p {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 8px 0px;
+    font: 'raleway';
+}
+
+.xp-container {
+    width: 940px;
+    margin: 40px auto;
+}
+
+.xp h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.item-lista img{
+    width: 40%;
+}
+
+.item-lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+   
+}
+
+.item-lista h3{
+    font-size: 22px;
+    font-weight: bold;
+
+
+}
+.btn{
+    display: inline;
+    margin: 10px 0px;
+    align-items: left;
+}
+
+#btn1 {
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    padding: 10px 0px;
+    width: 100px;
+}
+
+#btn2 {
+    color: white;
+    border: 1px solid #2A7AE4;
+    background-color: #2A7AE4;
+    padding: 10px 0px;
+    width: 100px;
+    
+}
+
+.txt {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: start;
+    
+
+}
+
+.txt h3{
+    width: 250px;
+    padding: 10px 0px;
+    font: 'raleway';
+}
+
+.form-container {
+    background: #EAF2FD; 
+}
+
+.formulario {
+    display: flex;
+    width: 940px;
+    margin: 40px auto;
+    padding: 100px 0px;;
+}
+
+.formulario img{
+    display: flex;
+    width: 40%;
+}
+
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.form-inputs h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 5px 15px;
+    font: 'raleway';
+    
+}
+
+.form-inputs p{
+    margin: 5px 15px;
+    font: 'raleway';
+    font-size: 16px;
+}
+
+.form-inputs label{
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+
+.form-inputs input{
+    height: 56px ;
+    margin: 10px 15px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #EAF2FD;
+    border-radius: 4px;
+}
+
+.form-inputs textarea{
+    height: 100px ;
+    width: 533.56px;
+    margin: 10px 15px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #EAF2FD;
+    border-radius: 4px;
+}
+
+#enviar-msg {
+    width: 200px;
+    height: 60px;
+    color: white;
+    border: 1px solid #2A7AE4;
+    background-color: #2A7AE4;
+    padding: 10px 0px;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+}
+
+.cv-export{
+    align-items: center;
+}

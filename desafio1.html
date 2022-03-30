@@ -1,64 +1,240 @@
 <!DOCTYPE html>
-
+<html lang = "pt-br">
 <head>
     <meta charset="UTF-8">
-    <html lang = "pt-br">
-    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="../Challenge1-Front-End/css/reset.css">
+    <link rel="stylesheet" href="../Challenge1-Front-End/css/style.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&display=swap" rel="stylesheet">
     <title>Luiz Marangoni</title>
 </head>
 
-<body>
-    <div class="caixa"> 
-        <header>  
-            
-                <p id="nome">Luiz Marangoni</p> 
+<body> 
+        <header>
+              
+                <div class="nome">
+                    <img src="../Challenge1-Front-End/img/Vector (1).png">
+                    <p>Luiz Marangoni</p> 
+                </div>
                 <nav>    
                     <ul class="barra-menu">
-                        <li><a href"">Sobre mim</a></li>
-                        <li><a href"">Skills</a></li>
-                        <li><a href"">Hobbies</a></li>                
-                        <li><a href"">Formação</a></li>
-                        <li><a href"">Meus projetos</a></li>
-                        <li><a href"">Contato lzmarangoni@gmail.com</a></li>
-                    </ul>
+                        <li><a href="#sobre-mim">Sobre mim</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#hobbies">Hobbies</a></li>                
+                        <li><a href="#formacoes">Formação</a></li>
+                        <li><a href="#xp-em-programacao">Meus projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li>lzmarangoni@gmail.com</li>
+                    </ul>   
                 </nav>
-            
+                
         </header>
 
-        <main>
-            <div class="main-texto">
+        <main class="principal">
+            <div class="texto-principal">
                 <h1>Olá, meu nome é Luiz Marangoni e construo páginas Web</h1>
-                <p>Atualmente estou realizando a migraçao de carreira para área de programação, participando do programa ONE-Oracle Next Education da ALURA</p>
-            </div>
-            <img src="Luiz.jpg">
+                <p class="texto-principal">Atualmente estou realizando a migraçao de carreira para área de programação, participando do programa ONE-Oracle Next Education da ALURA</p>
+            
             <ul class="redes-sociais">
-                <li>GitHub</li>
-                <li>LinkedIn</li>
-                <li>Instagram</li>
+                
+                
+                <li>
+                    <img src="../Challenge1-Front-End/img/seta_diagononal.png">
+                    <a href="https://github.com/lzmarangoni?tab=repositories">GitHub</a>
+                </li>         
+                <li>
+                    <img src="../Challenge1-Front-End/img/seta_diagononal.png">
+                    <a href="https://www.linkedin.com/in/luiz-marangoni-4aa396a2/">LinkedIn</a>
+                </li>
+                <li>
+                    <img src="../Challenge1-Front-End/img/seta_diagononal.png">
+                    <a href="https://www.instagram.com/lzmarangoni/">Instagram</a>
+                </li>
                 <li>Curriculo</li>
             </ul>
+            </div>
+            <img class="perfil" src="../Challenge1-Front-End/img/Luiz.jpg">
+           
         </main>
+        <div id=sobre-mim class="sobre-mim">  
+                <div class="sobre-mim-container">
+                    <h2>Sobre mim</h2>
+                    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facilis pariatur nobis esse placeat fugit excepturi minima, quidem blanditiis animi! Exercitationem eaque atque, officiis fugit laboriosam possimus debitis iusto dolorum!</P>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolor labore beatae quo fugit? Laboriosam, doloremque. Repellat earum, voluptates, harum modi, perferendis adipisci eius nesciunt molestiae distinctio ratione dolorum quo?</p>
+                </div>    
+        </div>
+         
+        <div id="skills" class="skills-hobbies ">
+            <div id="skills" class="skills">   
+            <h2 class="sub-titulo">Skills</h2> 
+                <ul>
+                    <li class="lista-skills">
+                       <img src="../Challenge1-Front-End/img/html.png">
+                       <h3>Html 5</h3>
+                    </li>
+                    <li class="lista-skills">
+                        <img src="img/Javascript.png">
+                        <h3>Javascript</h3>
+                     </li>
+                     <li class="lista-skills">
+                        <img src="img/php.png">
+                        <h3>PHP</h3>
+                     </li>
+                     <li class="lista-skills">
+                        <img src="img/Node.png">
+                        <h3>Node JS</h3>
+                     </li>
+                     <li class="lista-skills">
+                        <img src="img/react.png">
+                        <h3>React</h3>
+                     </li>
+                     <li class="lista-skills">
+                        <img src="img/CSS.png">
+                        <h3>CSS</h3>
+                     </li>
+                </ul>
+            </div> 
 
-        <div class="sobre-mim">Sobre mim</div>
+            <div id="hobbies" class="hobbies">
+            <h2>Hobbies</h2>
+                <ul>
+                    <li class="lista-hobbies">
+                        <img src="img/skate.png">
+                        <h3>Andar de Skate</h3> 
+                    </li>
+                    <li class="lista-hobbies">
+                        <img src="img/guitar.png">
+                        <h3>Tocar violão</h3> 
+                    </li>
+                    <li class="lista-hobbies">
+                        <img src="img/musica.png">
+                        <h3>Ouvir música</h3> 
+                    </li>
+                    <li class="lista-hobbies">
+                        <img src="img/tv.png">
+                        <h3>Assistir séries</h3> 
+                    </li>
+                    <li class="lista-hobbies">
+                        <img src="img/cozinhar.png">
+                        <h3>Coszinhar</h3> 
+                    </li>
+                    <li class="lista-hobbies">
+                        <img src="img/foto.png">
+                        <h3>Tirar fotos</h3> 
+                    </li>
+                </ul>
+            </div>
+        </div>
         
-        <div class="hobbies">Hobbies</div>
+        <div id="formacoes" class="formacoes-container"></div>
+            <div class="formacoes">
+            
+                <h2>Formação acadêmica</h2>
+                <ul>
+                    <li class="lista-formacoes">
+                        <img src="img/ufrj.png">
+                        <h3>Análise de dados</h3>
+                        <p>2018 UFRJ</p>  
+                    </li>
+                    <li class="lista-formacoes">
+                        <img src="img/alura.png">
+                        <h3>Formação UX Design</h3>
+                        <p>2019 - Alura</p> 
+                    </li>
+                    <li class="lista-formacoes">
+                        <img src="img/ufpr.png">
+                        <h3>Pós graduação design</h3>
+                        <p>Em andamento</p>  
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    
         
-        <div class="soft-skills">Soft Skills</div>
-    
-        <div class="formacoes">Formações</div>
-    
-        <div class="cursos">Cursos</div>
-
-        <div class="xp-em-programacao">experiências em programação</div>
-
-        <div class="form-contato">contato</div>
+        <div id="xp-em-programacao"class="xp-container">
+            <div class="xp">
+                <h2>Experiência profissinal</h2>
+                <ul class="lista-xp">
+                    <li class="item-lista">
+                        <img src="../Challenge1-Front-End/img/Rectangle.png">
+                        <div class="txt">    
+                            <h3>Decodificador de texto</h3>
+                            <p>Challenge Alura Codificador</p>
+                            <div class="btn">
+                                <button id="btn1">Repositório</button>
+                                <button id="btn2">Demo</button>
+                            </div>
+                        </div>
+                      
+                    </li>
+                    <li class="item-lista">
+                        <div class="txt">    
+                            <h3>Jogo criado com HTML, CSS e JavaScript</h3>
+                            <p>Challenge Oracle</p>
+                            <div class="btn">
+                                <button id="btn1">Repositório</button>
+                                <button id="btn2">Demo</button>
+                            </div>
+                        </div>
+                        <img src="../Challenge1-Front-End/img/Rectangle (1).png">
+                    </li>
+                    <li class="item-lista">
+                        <img src="../Challenge1-Front-End/img/Rectangle (2).png">
+                        <div class="txt">    
+                            <h3>Decodificador de texto</h3>
+                            <p>Challenge Alura Codificador</p>
+                            <div class="btn">
+                                <button id="btn1">Repositório</button>
+                                <button id="btn2">Demo</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-lista">
+                        <div class="txt">    
+                            <h3>Jogo criado com HTML e JavaScript</h3>
+                            <p>Challenge Oracle</p>
+                            <div class="btn">
+                                <button id="btn1">Repositório</button>
+                                <button id="btn2">Demo</button>
+                            </div>
+                        </div>
+                        <img src="../Challenge1-Front-End/img/Rectangle (3).png">
+                    </li>
+                </ul>
+            </div>
+        </div>  
+        <div id="contato"class="form-container">
+            <form class="formulario">
+                <img src="../Challenge1-Front-End/img/unsplash_JYGnB9gTCls.png">
+                    <div class="form-inputs">
+                        <h2>Contato</h2>
+                        <p>Quer entrar em contato comigo?</p>
+                        <p>Preencha o formulário abaixo e entrarei em contato o mais rápido possível</p>
+                                <label for="nome">Nome</label>
+                                <input type="text" id="nome" placeholder="Insira o seu nome">
+                           
+                                <label for="nome">E-mail</label>
+                                <input type="text" id="nome" placeholder="nome@exemplo.com">
+                            
+                                <label for="nome">Assunto</label>
+                                <input type="text" id="nome">
+                            
+                                <textarea placeholder="Mensagem"></textarea>
+                                <input id="enviar-msg" type="submit" value="Enviar Mensagem">
+                            
+                    </div>
+            </form>
+        </div>
 
         <footer>
-            &copy; Luiz Marangoni - 2022
+           Desenvolvido por &copy; Luiz Marangoni - 2022
         </footer>
 
-
-        <button class="curriculoPdf">Clique para visualizar o curriculo em PDF</button>
+        <div class="cv-export">
+            <button  href="file:///C:/Users/lzmar/Downloads/Luiz%20Marangoni%20DEV.pdf">Clique para visualizar o curriculo em PDF</button>
+        </div>
     
     
     
@@ -72,6 +248,5 @@
     
     
     
-    </div>
     
 </body>
