@@ -1,6 +1,6 @@
 body {
     background-color: #E5E5E5;
-    font: 'raleway';
+    font-family: 'Raleway', sans-serif;
     color: black;
 }
 html {
@@ -23,14 +23,10 @@ header {
 header li {
     display: inline;
     margin-right: 10px;
-    
-
 }
 
 header a{
-    text-decoration: none;
-    
-    
+    text-decoration: none; 
 }
 
 .principal{
@@ -42,14 +38,12 @@ header a{
     font-size: 52px;
     font-weight: 1000;
     margin: 24px 0px;
-    font-family: 'raleway';
 }
 
 .texto-principal p{
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;  
-    font-family: 'raleway';
 }
 
 .principal div{
@@ -61,8 +55,7 @@ header a{
 .principal {
     display: flex;
     align-items: center;
-    margin: 40px auto; 
-    
+    margin: 40px auto;  
 }
 
 .redes-sociais  {
@@ -84,23 +77,23 @@ header a{
     height: 368px;
 }
 
-.sobre-mim-container {
-    width: 940px;
-    margin: 40px auto
+.sub-titulo{
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    padding: 0px 15px 30px 15px;
 }
-.sobre-mim{
-    
+
+.sobre-mim-container {
     background: #EAF2FD;
+}
+
+.sobre-mim{
+    width: 940px;
+    margin: 40px auto;
     display: flex;
     padding: 64px;
     flex-flow: column wrap;
-   
-}
-
-.sobre-mim h2{
-    
-    font-weight: bold;
-    font-size: 32px;
 }
 
 .sobre-mim p {
@@ -108,16 +101,9 @@ header a{
     width: 740px;
     margin: 20px 0px;
     font-size: 16px;
-    font: 'raleway';
 }
 
-.skills h2 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 32px;
-    font: 'raleway';
-}
-.skills-hobbies {
+.skills-hobbies-container {
     width: 940px;
     margin: 20px auto;
 }
@@ -125,7 +111,6 @@ header a{
 .skills ul{
     display: flex;
     justify-content: space-between;
-
 }
     
 .lista-skills {
@@ -133,18 +118,10 @@ header a{
     background-color: #FFFFFF;
     padding: 70px 70px 10px 10px;
     margin: 1%;
-    
 }  
 
 .hobbies {
     margin: 40px auto;
-}
-
-.hobbies h2 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 32px;
-    font: 'raleway';
 }
 
 .hobbies ul{
@@ -159,62 +136,56 @@ header a{
     margin: 1%;
 }  
 
-.formacoes {
+.formacoes-container {
     background: #EAF2FD;
+}
+
+.formacoes {
+    width: 940px;
+    margin: 40px auto;
     display: flex;
-    padding: 64px;
+    padding: 50px;
     flex-flow: column wrap;
 }
 
-.formacoes h2{
-    text-align: center;
-    font-weight: bold;
-    font-size: 32px;
-    margin: 40px 0px;
-    font: 'raleway';
-}
-
-.formacoes.container {
-    width: 940px;
-    margin: 40px auto;
-}
 
 .formacoes ul{
-    width: 940px;
-    margin: auto;
     display: flex;
-    justify-content: space-between;
+    text-align: center;
+    width: 30%;
+   
+
+}
+
+.formacoes li{
+    width: 80%;
+}
+
+.lista-formacoes {
+    display: inline-block;
+  
+    align-items: center;
+    margin: 1%
 }
 
 .lista-formacoes img{
     background-color: #FFFFFF;
-    padding: 50px;
-    margin: 1%;
+    padding: 15px;
 }
 
 .lista-formacoes h3 {
     font-weight: 700;
     font-size: 22px;
-    margin: 8px 0px;
-    font: 'raleway';
 }
 
 .lista-formacoes p {
     font-weight: 500;
     font-size: 16px;
-    margin: 8px 0px;
-    font: 'raleway';
 }
 
 .xp-container {
     width: 940px;
     margin: 40px auto;
-}
-
-.xp h2 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 32px;
 }
 
 .item-lista img{
@@ -226,15 +197,13 @@ header a{
     align-items: center;
     justify-content: center;
     margin: 20px auto;
-   
 }
 
 .item-lista h3{
     font-size: 22px;
     font-weight: bold;
-
-
 }
+
 .btn{
     display: inline;
     margin: 10px 0px;
@@ -253,16 +222,13 @@ header a{
     border: 1px solid #2A7AE4;
     background-color: #2A7AE4;
     padding: 10px 0px;
-    width: 100px;
-    
+    width: 100px; 
 }
 
 .txt {
     display: flex;
     flex-flow: column wrap;
     text-align: start;
-    
-
 }
 
 .txt h3{
@@ -279,7 +245,7 @@ header a{
     display: flex;
     width: 940px;
     margin: 40px auto;
-    padding: 100px 0px;;
+    padding: 20px 0px;;
 }
 
 .formulario img{
@@ -298,14 +264,11 @@ header a{
 .form-inputs h2 {
     font-size: 32px;
     font-weight: bold;
-    margin: 5px 15px;
-    font: 'raleway';
-    
+    margin: 5px 15px;    
 }
 
 .form-inputs p{
     margin: 5px 15px;
-    font: 'raleway';
     font-size: 16px;
 }
 
@@ -341,6 +304,11 @@ header a{
     border: 1px solid #2A7AE4;
     background-color: #2A7AE4;
     padding: 10px 0px;
+    transition: 1s all;
+}
+
+#enviar-msg:hover {
+    transform: scale(1.2) ;
 }
 
 footer {
@@ -350,4 +318,86 @@ footer {
 
 .cv-export{
     align-items: center;
+}
+
+@media screen and (max-width: 460px) {
+    header, .principal, .sobre-mim, .sobre-mim p, .skills, .skills ul, .hobbies ul, .skills-hobbies-container, .formacoes, .formacoes ul, .xp-container, .formulario, .form-inputs label, .form-inputs textarea, .form-inputs input{
+        width: auto;
+        display: inline-block;
+    }
+
+    .sobre-mim{
+        padding: 30px 60px;
+    }
+    .perfil {
+        margin: 10px;
+    
+    }
+    .texto-principal h1{
+        font-size: 35px;
+    }
+
+    .formacoes li {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .hobbies li, .skills li {
+        display: inline-block;
+        margin: 10px auto;
+    }
+
+    .item-lista{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .txt {
+        text-align: center;
+    }
+
+    .txt h3{
+        margin: 10px auto;
+    }
+
+    .formulario img {
+        width: 100%;
+        padding: auto 50px;
+    }
+
+
+    .form-inputs label{
+        position: static;
+        padding: 30px 0px 0px 20px;
+    }
+    
+
+    header {
+        display: none;
+    }
+ 
+    .skills-hobbies-container{
+        text-align: center;
+        display: inline;
+    }
+
+    .lista-skills h3{
+        width: auto;
+    }
+
+
+    .lista-skills, .lista-hobbies {
+        height: 50px;
+        width:50px
+    }
+
+    .lista-hobbies h3 {
+        width: 120px;
+        padding: 0px;
+        text-align: left;
+    }
+
+  
+   
 }
